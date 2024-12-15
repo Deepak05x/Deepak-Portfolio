@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -8,7 +10,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I design with purpose, code with precision, and collaborate openly ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +41,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "I thrive on technology, collaboration, and exceptional development",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +52,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building an AI powered Resume Builder Saas App",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +75,75 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "StoreDrive",
+    des: "Effortless file management and sharing with StoreDrive, built on Next.js 15 and Appwrite Node SDK.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg"],
+    link: "https://store-drive.vercel.app/sign-up",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "WhatsTheWord?",
+    des: "A dynamic social media platform built with the MERN stack, delivering a seamless and engaging user experience.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: [
+      "/mongo.svg",
+      "/ex.svg",
+      "/re.svg",
+      "/node.svg",
+      "/tail.svg",
+      "/cloud.svg",
+    ],
+    link: "https://whatstheword.onrender.com/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Convo-Connect!",
+    des: "Convo-Connect: A web-based platform for seamless messaging and photo sharing, featuring user search, chat prioritization, and real-time updates.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/re.svg", "/fire.svg", "/js.svg", "/sass.svg"],
+    link: "https://convo-connect.netlify.app/login",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "ChattersArchive",
+    des: "A web-based platform enabling user communication with Google Authentication, chat management, and sharing capabilities.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: ["/js.svg", "/re.svg", "/chak.svg", "/fire.svg"],
+    link: "https://chattersarchive.netlify.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
+    name: "Vipul Jain",
+    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
+    name: "Vipul Jain",
+    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
+    name: "Vipul Jain",
+    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
+    name: "Vipul Jain",
+    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
+    name: "Vipul Jain",
+    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
   },
 ];
 
@@ -156,48 +166,15 @@ export const companies = [
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer Intern",
+    desc: "Contributed to the development and launch of websites using HTML, CSS, and JavaScript, optimizing for performance, cross-platform compatibility, and responsiveness. Collaborated with developers and designers to integrate front-end and back-end systems.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -205,13 +182,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/shhashwat",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/shhhashwat",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/shhashwat/",
   },
 ];
