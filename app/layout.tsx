@@ -6,8 +6,6 @@ import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Shashwat's Portfolio",
   description: "What meets the eyes and exceeds the expectations",

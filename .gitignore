@@ -29,7 +29,11 @@ yarn-error.log*
 .env*.local
 
 # vercel
+<<<<<<< HEAD
 .vercel
 
 # Sentry Config File
 .env.sentry-build-plugin
+=======
+.vercel
+>>>>>>> parent of 10d82bf (okay)
