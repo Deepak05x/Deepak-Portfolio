@@ -7,8 +7,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shashwat's Portfolio",
-  description: "What meets the eyes and exceeds the expectations",
+  title: "Deepak's Portfolio",
+  description: "Creativity and innovation always beats the book smarts",
 };
 
 export default function RootLayout({
@@ -18,9 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/public/shashwat-logo.jpg" sizes="any" />
-      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
