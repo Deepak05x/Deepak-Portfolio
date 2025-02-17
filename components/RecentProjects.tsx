@@ -4,14 +4,14 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
-import Link from "next/link";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
         A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        <span className="text-green-500">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -19,18 +19,14 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title="/github.com/shhashwat"
-              href="https://github.com/shhashwat/"
-            >
+            <PinContainer>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
-                >
-                  <img src="/bg.png" alt="bgimg" />
-                </div>
-                <img
+                ></div>
+                <Image
+                  fill
                   src={item.img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
@@ -68,9 +64,13 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    <a href={item.link}>Check Live Site</a>
+                    <a target="_blank" href={item.link}>
+                      <FaLocationArrow
+                        className="ms-3 transition-all ease-in-out hover:scale-125"
+                        color="#22c55e"
+                      />
+                    </a>
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>

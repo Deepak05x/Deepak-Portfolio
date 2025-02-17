@@ -4,7 +4,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Resume", link: "#contact" }, // Resume
 ];
 
 export const gridItems = [
@@ -75,42 +75,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "StoreDrive",
-    des: "Effortless file management and sharing with StoreDrive, built on Next.js 15 and Appwrite Node SDK.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg"],
-    link: "https://store-drive.vercel.app/sign-up",
+    title: "ViperBox",
+    des: "A dynamic web application that let user's to customize their phone case",
+    img: "/viperbox.png",
+    iconLists: ["/next.svg", "/tail.svg", "/js.svg", "/mongo.svg"],
+    link: "https://viper-box-deepak.vercel.app/",
   },
   {
     id: 2,
-    title: "WhatsTheWord?",
-    des: "A dynamic social media platform built with the MERN stack, delivering a seamless and engaging user experience.",
-    img: "/p2.svg",
-    iconLists: [
-      "/mongo.svg",
-      "/ex.svg",
-      "/re.svg",
-      "/node.svg",
-      "/tail.svg",
-      "/cloud.svg",
-    ],
-    link: "https://whatstheword.onrender.com/",
+    title: "Rythmix",
+    des: "A cutting-edge music streaming platform to enhance music experience",
+    img: "/rythmix.png",
+    iconLists: ["/re.svg", "/node.svg", "/tail.svg"],
+    link: "https://rythmix-sage.vercel.app/",
   },
   {
     id: 3,
-    title: "Convo-Connect!",
-    des: "Convo-Connect: A web-based platform for seamless messaging and photo sharing, featuring user search, chat prioritization, and real-time updates.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/fire.svg", "/js.svg", "/sass.svg"],
-    link: "https://convo-connect.netlify.app/login",
+    title: "Promptify",
+    des: "Promptify is  designed to let users create and share prompts with a community",
+    img: "/promptify.png",
+    iconLists: ["/next.svg", "/mongo.svg", "/js.svg", "/node.svg", "tail.svg"],
+    link: "https://promptify-deepak.vercel.app/",
   },
   {
     id: 4,
-    title: "ChattersArchive",
-    des: "A web-based platform enabling user communication with Google Authentication, chat management, and sharing capabilities.",
-    img: "/p4.svg",
-    iconLists: ["/js.svg", "/re.svg", "/chak.svg", "/fire.svg"],
-    link: "https://chattersarchive.netlify.app/",
+    title: "Photographer's Website",
+    des: "Discover a stunning photographer's portfolio website ",
+    img: "/photo.png",
+    iconLists: ["/js.svg", "/re.svg", "/tail.svg"],
+    link: "https://photographers-website.vercel.app/",
   },
 ];
 
