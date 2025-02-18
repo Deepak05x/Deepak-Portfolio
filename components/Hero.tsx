@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
 
           <TextGenerateEffect
-            words="Aspiring Developer, Crafting the Future of Web Experiences"
+            words="Passion fuels purpose, driving us to achieve greatness"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
