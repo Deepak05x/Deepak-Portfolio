@@ -43,8 +43,8 @@ const Card = ({
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       // change h-[30rem] to h-[35rem], add rounded-3xl
-      className="border cursor-pointer border-black/[0.2] group/canvas-card flex items-center justify-center
-       dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl "
+      className="border cursor-pointer border-green-900 hover:border-green-500 group/canvas-card flex items-center justify-center
+         max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl "
       style={{
         //   add these two
         //   you can generate the color from here https://cssgradient.io/
@@ -82,14 +82,23 @@ const Card = ({
         </div>
 
         {/* add this one for the description */}
-        <p
+        <div
           className="text-sm opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
          group-hover/canvas-card:-translate-y-2 transition duration-200"
           style={{ color: "#E4ECFF" }}
         >
-          {des}
-        </p>
+          {des.split(",").map((skill, index) => (
+            <p
+              key={index}
+              className="flex items-center justify-center my-4 border border-green-500 px-6 py-3 
+               rounded-lg   
+               font-medium shadow-md transition-transform transform hover:scale-105"
+            >
+              {skill.trim()}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );

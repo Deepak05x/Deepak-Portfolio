@@ -25,11 +25,11 @@ const Experience = () => {
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             // remove bg-white dark:bg-slate-900
-            className="flex-1 max-w-[60rem] text-black dark:text-white  dark:border-slate-800"
+            className="flex-1 max-w-[60rem] text-black border-green-900 hover:border-green-500"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <div className="lg:ms-5">
-                <h1 className="text-start flex flex-col text-xl md:text-2xl font-bold">
+                <h1 className="text-start text-white flex flex-col text-xl md:text-2xl font-bold">
                   {card.title}
                   <span className="text-green-500">{card.company}</span>
                 </h1>
