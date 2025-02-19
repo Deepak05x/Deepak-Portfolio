@@ -10,7 +10,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20">
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        <h1 className="heading z-50">
+        <h1 className="heading z-50 text-white">
           A small selection of{" "}
           <span className="text-green-500">recent projects</span>
         </h1>
@@ -33,7 +33,7 @@ const RecentProjects = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-white text-base line-clamp-1">
                 {item.title}
               </h1>
 

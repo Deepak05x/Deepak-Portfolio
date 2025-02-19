@@ -7,71 +7,6 @@ export const navItems = [
   { name: "Resume", link: "#contact" }, // Resume
 ];
 
-export const gridItems = [
-  {
-    id: 1,
-    title:
-      "I design with purpose, code with precision, and collaborate openly ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 4,
-    title: "I thrive on technology, collaboration, and exceptional development",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
-
-  {
-    id: 5,
-    title: "Currently building an AI powered Resume Builder Saas App",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
-];
-
 export const projects = [
   {
     id: 1,
@@ -104,39 +39,6 @@ export const projects = [
     img: "/photo.png",
     iconLists: ["/js.svg", "/re.svg", "/tail.svg"],
     link: "https://photographers-website.vercel.app/",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
-    name: "Vipul Jain",
-    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
-  },
-  {
-    quote:
-      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
-    name: "Vipul Jain",
-    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
-  },
-  {
-    quote:
-      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
-    name: "Vipul Jain",
-    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
-  },
-  {
-    quote:
-      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
-    name: "Vipul Jain",
-    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
-  },
-  {
-    quote:
-      "Collaborating with Shashwat was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shashwat's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shashwat is the ideal partner.",
-    name: "Vipul Jain",
-    title: "Data Visualisation Engineer @ Srijan - A Material+ Company",
   },
 ];
 
@@ -195,16 +97,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/shhashwat",
+    link: "https://github.com/Deepak05x",
   },
   {
     id: 2,
-    img: "/twit.svg",
-    link: "https://x.com/shhhashwat",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/deepak05x_/",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/shhashwat/",
+    link: "https://www.linkedin.com/in/deepak-h-774289289/",
   },
 ];

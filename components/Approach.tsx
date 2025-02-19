@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading z-50">
+      <h1 className="heading text-white z-50">
         My <span className="text-green-500">Core Strength</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
