@@ -1,10 +1,18 @@
 import { link } from "fs";
 
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Resume", link: "#contact" }, // Resume
+  {
+    name: "Photo",
+    link: "https://drive.google.com/file/d/1CPzSFXwwYpfitQzqKt3Fwl2kO0nUvsR4/view?usp=sharing",
+  },
+  {
+    name: "Achievements",
+    link: "https://drive.google.com/file/d/1CPzSFXwwYpfitQzqKt3Fwl2kO0nUvsR4/view?usp=sharing",
+  },
+  {
+    name: "Resume",
+    link: "https://drive.google.com/file/d/1l-3LrWlKH-IRgxaMdRfBmIBK7rWt7Ili/view?usp=sharing",
+  }, // Resume
 ];
 
 export const projects = [

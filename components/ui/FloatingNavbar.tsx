@@ -74,6 +74,7 @@ export const FloatingNav = ({
         {navItems.map((navItem: any, idx: number) => (
           <a
             key={`link=${idx}`}
+            target="_blank"
             href={navItem.link}
             className={cn(
               "relative text-neutral-50 items-center  flex space-x-1 hover:text-neutral-300 "
