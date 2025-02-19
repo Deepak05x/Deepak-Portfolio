@@ -19,8 +19,8 @@ const Hero = () => {
        absolute top-0 left-0 flex items-center justify-center"
       >
         <div
-          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+          className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black-100
+         [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
 
@@ -32,7 +32,7 @@ const Hero = () => {
 
           <TextGenerateEffect
             words="Passion fuels purpose, driving us to achieve greatness"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-white text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
