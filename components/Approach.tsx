@@ -43,7 +43,7 @@ const Card = ({
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       // change h-[30rem] to h-[35rem], add rounded-3xl
-      className="border cursor-pointer border-green-900 hover:border-green-500 group/canvas-card flex items-center justify-center
+      className="border cursor-pointer border-green-900 hover:border-green-500 transition duration-700 group/canvas-card flex items-center justify-center
          max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl "
       style={{
         //   add these two
@@ -91,7 +91,7 @@ const Card = ({
           {des.split(",").map((skill, index) => (
             <p
               key={index}
-              className="flex items-center justify-center my-4 border border-green-500 px-6 py-3 
+              className="flex items-center justify-center my-6 border border-green-500 px-6 py-3 
                rounded-lg   
                font-medium shadow-md transition-transform transform hover:scale-105"
             >

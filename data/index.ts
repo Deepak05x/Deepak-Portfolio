@@ -1,13 +1,11 @@
-import { link } from "fs";
-
 export const navItems = [
   {
     name: "Photo",
     link: "https://drive.google.com/file/d/1CPzSFXwwYpfitQzqKt3Fwl2kO0nUvsR4/view?usp=sharing",
   },
   {
-    name: "Achievements",
-    link: "https://drive.google.com/file/d/1CPzSFXwwYpfitQzqKt3Fwl2kO0nUvsR4/view?usp=sharing",
+    name: "Certificates",
+    link: "https://drive.google.com/drive/folders/1YJzMifU7Y9YV74pr5eyg1P5wXXpt4PSQ",
   },
   {
     name: "Resume",

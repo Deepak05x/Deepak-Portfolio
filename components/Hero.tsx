@@ -40,7 +40,7 @@ const Hero = () => {
             India.
           </p>
 
-          <a href="#projects">
+          <a href="https://github.com/Deepak05x" target="_blank">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
