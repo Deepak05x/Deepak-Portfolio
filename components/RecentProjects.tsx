@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="md:py-20 pt-10 pb-20">
+    <div className="pb-20">
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         <h1 className="heading z-50 text-white">
           A small selection of{" "}
