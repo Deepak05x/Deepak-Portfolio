@@ -58,7 +58,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           viewport={{ once: true }}
-          className="md:text-base text-sm md:font-normal font-light"
+          className="md:text-base text-sm md:font-normal font-light text-white-100"
         >
           Connect with me on my socials:
         </motion.p>
