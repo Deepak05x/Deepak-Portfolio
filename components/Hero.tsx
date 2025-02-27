@@ -54,7 +54,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
             viewport={{ once: true }}
-            className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl flex"
+            className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"
           >
             Hey! I&apos;m Deepak, a Full-Stack Developer based in Chennai,
             India.
