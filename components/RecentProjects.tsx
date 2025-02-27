@@ -1,7 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
+import { motion } from "framer-motion";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Image from "next/image";
@@ -9,13 +9,23 @@ import Image from "next/image";
 const RecentProjects = () => {
   return (
     <div className="pb-20">
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        <h1 className="heading z-50 text-white">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 ">
+        <motion.h1
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          viewport={{ once: true }}
+          className="heading z-50 text-white"
+        >
           A small selection of{" "}
           <span className="text-green-500">recent projects</span>
-        </h1>
+        </motion.h1>
         {projects.map((item) => (
-          <div
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            viewport={{ once: true }}
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
@@ -74,7 +84,7 @@ const RecentProjects = () => {
                 </div>
               </div>
             </PinContainer>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

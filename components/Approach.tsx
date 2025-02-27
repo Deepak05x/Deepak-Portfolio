@@ -6,11 +6,23 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading text-white z-50">
+      <motion.h1
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        viewport={{ once: true }}
+        className="heading text-white z-50"
+      >
         My <span className="text-green-500">Core Strength</span>
-      </h1>
+      </motion.h1>
       {/* remove bg-white dark:bg-black */}
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        viewport={{ once: true }}
+        className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4"
+      >
         {/* add des prop */}
         <Card
           icon={<AceternityIcon order="Frontend" />}
@@ -20,7 +32,7 @@ const Approach = () => {
           icon={<AceternityIcon order="Backend" />}
           des="MongoDB, Firebase, Auth JS, FireAuth, Mongoose"
         ></Card>
-      </div>
+      </motion.div>
     </section>
   );
 };
