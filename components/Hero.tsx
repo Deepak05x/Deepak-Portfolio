@@ -49,16 +49,16 @@ const Hero = () => {
             />
           </motion.div>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
             viewport={{ once: true }}
-            className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"
+            className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl flex"
           >
             Hey! I&apos;m Deepak, a Full-Stack Developer based in Chennai,
             India.
-          </motion.p>
+          </motion.div>
 
           <motion.a
             initial={{ opacity: 0, y: 50 }}

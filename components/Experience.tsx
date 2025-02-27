@@ -17,8 +17,9 @@ const Experience = () => {
       </motion.h1>
 
       <div className="w-full mt-12 flex flex-col gap-8 items-center justify-center">
-        {workExperience.map((card) => (
+        {workExperience.map((card, index) => (
           <motion.div
+            key={index}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
